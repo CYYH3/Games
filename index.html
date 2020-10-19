@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小游戏</title>
+	<link rel="icon" href="https://s1.ax1x.com/2020/07/08/UEaE2d.png" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+			font-family: 微软雅黑;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #efeeee;
+			-webkit-user-select: none;
+			user-select: none;
+        }
+        .container{
+            width: 700px;
+            height: 600px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .container .box{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            width: 100px;
+            height: 140px;
+            margin: 20px;
+        }
+        .container .box .img{
+            width: 100px;
+            height: 100px;
+            box-shadow: 18px 18px 30px rgba(0,0,0,0.1),
+            -18px -18px 30px rgba(255,255,255,1);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #efeeee;
+            transition: box-shadow .2s ease-out;
+            position: relative;
+        }
+        .container .box .img img{
+            width: 60px;
+            transition: width .2s ease-out;
+        }
+        .container .box a{
+            color: black;
+            transition: color 0.5s ease 0s;
+        }
+		.container a{
+            color: black;
+            transition: color 0.5s ease 0s;
+		}
+        .container .box .img:hover{
+            box-shadow: 0px 0px 0px rgba(0,0,0,0.1),
+            0px 0px 0px rgba(255,255,255,1),
+            inset 18px 18px 30px rgba(0,0,0,0.1),
+            inset -18px -18px 30px rgba(255,255,255,1);
+            transition: box-shadow .2s ease-out;
+        }
+        .container .box .img:hover img{
+            width: 58px;
+            transition: width .2s ease-out;
+        }
+        .container .box a:hover{
+            color: slategray;
+            transition: color 0.5s ease 0s;
+        }
+		.container a:hover{
+            color: slategray;
+            transition: color 0.5s ease 0s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--1-->
+        <div class="box">
+            <div class="img">
+                <a href="http://my.zp68.com/filestores/2020/07/08/b65638497c25cad7f33e28f69e337190.html.txt?lx=xzwj&k=26779dd5482245ebb270" target="_blank">
+                    <img src='https://s1.ax1x.com/2020/07/07/UAwFz9.png'>
+                </a>
+            </div>
+            <a href="http://my.zp68.com/filestores/2020/07/08/b65638497c25cad7f33e28f69e337190.html.txt?lx=xzwj&k=26779dd5482245ebb270" target="_blank">迷宫</a>
+        </div>
+        <!--2-->
+        <div class="box">
+            <div class="img">
+                <a href="http://my.zp68.com/filestores/2020/07/08/bdcab881d722b1d8ac4e4154a5211e82.html.txt?lx=xzwj&k=26779dd5482244efbc7c" target="_blank">
+                    <img src='https://s1.ax1x.com/2020/07/07/UA0cjA.png'>
+                </a>
+            </div>
+            <a href="http://my.zp68.com/filestores/2020/07/08/bdcab881d722b1d8ac4e4154a5211e82.html.txt?lx=xzwj&k=26779dd5482244efbc7c" target="_blank">加数游戏</a>
+        </div>
+        <!--3-->
+        <div class="box">
+            <div class="img">
+                <a href="http://my.zp68.com/filestores/2020/07/08/8b9e27e3744fe24c0947d7dc089b6ae4.html.txt?lx=xzwj&k=26779dd5482245e9b97e" target="_blank">
+                    <img src='https://s1.ax1x.com/2020/07/07/UAakY4.png'>
+                </a>
+            </div>
+            <a href="http://my.zp68.com/filestores/2020/07/08/8b9e27e3744fe24c0947d7dc089b6ae4.html.txt?lx=xzwj&k=26779dd5482245e9b97e" target="_blank">简单问答游戏</a>
+        </div>
+        <!--4-->
+        <div class="box">
+            <div class="img">
+                <a href="http://my.zp68.com/filestores/2020/07/08/e1d525119a8274d62f1405615f0f46a6.html.txt?lx=xzwj&k=26779dd5482244ecbd7b" target="_blank">
+                    <img src='https://s1.ax1x.com/2020/07/07/UADGLR.png'>
+                </a>
+            </div>
+            <a href="http://my.zp68.com/filestores/2020/07/08/e1d525119a8274d62f1405615f0f46a6.html.txt?lx=xzwj&k=26779dd5482244ecbd7b" target="_blank">坐标</a>
+        </div>
+	</div>
+</body>
+</html>
